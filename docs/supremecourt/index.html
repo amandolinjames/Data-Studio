@@ -70,8 +70,6 @@ WHEN YOU'RE DONE WITH ALL THE FANCY FUNCTIONALITY
 
 <div id='byline'> By: Amanda James    </div>
 
-<div id='case_info'> By: Amanda James    </div>
-
 <p>There were 64 cases that the Supreme Court discussed, ranging in topics from immigration
 to cases brought against corporations like Microsoft. The 8 justices on the Supreme Court weighed in on these 
 cases, and then the cases can be reviewed by the U.S. Court of Appeals, and their judgments are affirmed or repealed.</p>
@@ -135,7 +133,7 @@ ALL THE COMMENTS FROM HERE WE'LL BE IN JAVASCRIPT COMMENTS //
 	};
 
 	info.update = function (props) {
-		this._div.innerHTML = '<h4>SUPREME COURT CASES 2016/h4>' +  (props ?
+		this._div.innerHTML =  (props ?
 			'<br />' + 'CASE NAME: ' + props.Case_Name + '</br>'
 			: 'Hover on a point');
 	};
@@ -232,7 +230,7 @@ name.innerHTML=propname['Area*'] + 'blah' + propname['number_words']
 		layer.on({
 			mouseover: highlightFeature,
 			mouseout: resetHighlight,
-			click: click
+			// click: click
 		});
 	}
 
