@@ -9,7 +9,7 @@ layout: project
 
 # In the U.S. there have been ___ wrongful convictions since ____. The most wrongful convictions involve __. 
 
-![](stateconvictions.png.png)
+![](stateconvictions.png)
 
 # I'm going to describe who is wrongfully convicted and how the research was conducted here. 
 
